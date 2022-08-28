@@ -90,6 +90,7 @@ body {
 
 .nav {
     display: flex;
+    margin-bottom: 30px;
 }
 
 .logo {
@@ -130,4 +131,42 @@ body {
 
 .box:last-child {
     margin-right: 0;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    height: 30px;
+}
+.news {
+    background-color: skyblue;
+    width: 8%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.information {
+    display: flex;
+    background-color: skyblue;
+    width: 85%;
+    height: 30px;
+    margin-left: 10px ;
+
+}
+
+.slider {
+    align-items: center;
+}
+
+.arrow {
+    display: flex;
+    width: 20%;
+    place-content: end;
+}
+
+.arrow1 {
+    background-color: black;
+    width: 10%;
+    height: 20px;
+    margin: 2px;
 }

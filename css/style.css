@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    height: 140px;
+    height: 200px;
 }
 
 .top-header {
@@ -90,43 +90,63 @@ body {
 
 .nav {
     display: flex;
-    margin-bottom: 30px;
+    background-color: greenyellow;
+    width: 100%;
+    height: 120px;
+    place-items: center;
 }
 
 .logo {
-    background-color: red;
-    width: 15%;
+    background-color: green;
+    width: 150px;
     height: 90px;
 }
 
 .menu {
     display: flex;
-    background-color: white;
-    width: 70%;
+    background-color: aliceblue;
+    width: 80%;
+    height: 90px;
+    place-content: center;
+    align-items: center;
 }
 
 .menu-bar {
-    background-color: pink;
-    width: 50%;
+    background-color: green;
+    width: 100px;
     height: 90px;
-    margin: 0 2px;
-
+    margin: 2px;
 }
 
 .subscribe {
+    background-color: pink;
     display: flex;
-    width: 15%;
+    width: 20%;
+    height: 40px;
+    align-items: center;
+    place-content: end;
+    margin-left: 20px;
 }
 
 .box1 {
-    background-color: green;
-    width: 60%;
+    background-color: whitesmoke;
+    width: 110px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 4px;
+    margin-left: 0;
+
+}
+
+.search {
+    display: flex;
 }
 
 .box {
-    background-color: blue;
-    width: 40%;
-    margin: 0 2px;
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    margin: 0 4px;
 }
 
 .box:last-child {
@@ -135,38 +155,33 @@ body {
 
 .section {
     display: flex;
+    background-color: darkcyan;
+    height: 40px;
+    width: 100%;
+    margin: 3px 0;
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    background-color: white;
     width: 100%;
     height: 30px;
+    margin: 0 10px;
+    border-radius: 3px;
 }
-.news {
+
+.trending{
     background-color: skyblue;
-    width: 8%;
-    height: 30px;
+    width: 10%;
+    margin-right: 4px;
     border-radius: 4px;
 }
 
 .information {
     display: flex;
-    background-color: skyblue;
-    width: 85%;
-    height: 30px;
-    margin-left: 10px ;
+    width: 100%;
+    background-color: gray;
 
 }
 
-.slider {
-    align-items: center;
-}
-
-.arrow {
-    display: flex;
-    width: 20%;
-    place-content: end;
-}
-
-.arrow1 {
-    background-color: black;
-    width: 10%;
-    height: 20px;
-    margin: 2px;
-}

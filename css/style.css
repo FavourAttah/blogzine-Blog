@@ -210,7 +210,7 @@ body {
     background-color: skyblue;
     display: flex;
     height: 450px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .left {
@@ -259,3 +259,19 @@ body {
     margin-bottom: 0;
 }
 
+.container1 {
+    background-color: pink;
+    height: 1000px;
+}
+
+.aside {
+    background-color: skyblue;
+    width: 70%;
+    height: 1000px;
+}
+
+.highlight {
+    background-color: yellowgreen;
+    height: 100px;
+
+}

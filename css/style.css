@@ -160,6 +160,7 @@ body {
     width: 100%;
     margin: 3px 0;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .news {
@@ -181,7 +182,80 @@ body {
 .information {
     display: flex;
     width: 100%;
+    place-content: end;
+    align-items: center;
     background-color: gray;
+}
 
+.slider {
+    place-content: start;
+    margin-right: 270px;
+}
+
+.arrow {
+    background-color: skyblue;
+    display: flex;
+    width: 5%;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.arrow1 {
+    background-color: blue;
+    width: 50%;
+    margin: 4px;
+}
+
+.row1 {
+    background-color: skyblue;
+    display: flex;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.left {
+    background-color: pink;
+    height: 450px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.right {
+    background-color: yellow;
+    height: 450px;
+    width: 50%;
+}
+
+.top {
+    background-color: pink;
+    height: 200px;
+    margin: 30px 15px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+
+.buttom {
+    background-color: black;
+    display: flex;
+    height: 205px;
+    margin: 15px; 
+}
+
+.rows1 {
+    background-color: pink;
+    height: 190px;
+    width: 50%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.rows1:first-child {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.rows1:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
